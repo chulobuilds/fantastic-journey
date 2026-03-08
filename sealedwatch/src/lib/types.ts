@@ -2,7 +2,6 @@ export type TCGCategory = "pokemon" | "magic" | "onepiece";
 
 export type ProductType =
   | "booster-box"
-  | "enhanced-booster-box"
   | "collector-booster-box"
   | "play-booster-box"
   | "draft-booster-box"
@@ -80,7 +79,6 @@ export const CATEGORY_COLORS: Record<TCGCategory, string> = {
 
 export const PRODUCT_TYPE_LABELS: Record<ProductType, string> = {
   "booster-box": "Booster Box",
-  "enhanced-booster-box": "Enhanced Booster Box",
   "collector-booster-box": "Collector Booster Box",
   "play-booster-box": "Play Booster Box",
   "draft-booster-box": "Draft Booster Box",
